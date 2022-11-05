@@ -25,10 +25,24 @@ public class ChessMatch {
         board.placePiece(piece, new ChessPosition(column, row).toPosition());
     }
     private void initialSetup() {
-        placeNewPiece('b', 6, new King(board, Color.WHITE));
-        placeNewPiece('c', 6, new Rook(board, Color.WHITE));
-        placeNewPiece('d', 6, new King(board, Color.BLACK));
-        placeNewPiece('e', 6, new Rook(board, Color.BLACK));
+        placeNewPiece('d', 5, new King(board, Color.WHITE));
+        placeNewPiece('d', 4, new King(board, Color.BLACK));
+        placeNewPiece('a', 8, new Rook(board, Color.WHITE));
+        placeNewPiece('a', 7, new Rook(board, Color.WHITE));
+        placeNewPiece('a', 6, new Rook(board, Color.WHITE));
+        placeNewPiece('a', 5, new Rook(board, Color.WHITE));
+        placeNewPiece('a', 4, new Rook(board, Color.WHITE));
+        placeNewPiece('a', 3, new Rook(board, Color.WHITE));
+        placeNewPiece('a', 2, new Rook(board, Color.WHITE));
+        placeNewPiece('a', 1, new Rook(board, Color.WHITE));
+        placeNewPiece('h', 8, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 7, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 6, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 5, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 4, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 3, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 2, new Rook(board, Color.BLACK));
+        placeNewPiece('h', 1, new Rook(board, Color.BLACK));
 
     }
 }
